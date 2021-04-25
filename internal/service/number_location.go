@@ -24,7 +24,6 @@ type numberLocationService struct {
 func (s *numberLocationService) GetLoctaionByNumber(number int) (models.Location, error) {
 	var m models.Location
 	if err := s.GetDB().Where("`number` = ?", number).Find(&m).Error; nil != err {
-
 		return m, xerrors.Wrap(err, "service find data error")
 	}
 	return m, nil
