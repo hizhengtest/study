@@ -1,0 +1,21 @@
+#系统配置
+app:
+  serverName: task-test
+  productType:
+  serverAddr: 127.0.0.1
+  portInnerGrpc: 50052
+  portInnerHttp:
+  portOutGrpc: 50052
+  portOutHttp:
+  logDir: /Users/zhengronghua/Downloads/logs
+  cacheDir: /Users/zhengronghua/Downloads/cache
+  debug: true
+  nacosAddr: 127.0.0.1
+  nacosPort: 8848
+  nacosScheme: http
+  nacosContextPath: /nacos
+  nacosNameSpace: 34a680ff-4678-4f8c-8e0a-6fb831d0df83
+  nacosDataID: mobile-pool
+  nacosDataGroup: DEFAULT_GROUP
+  nacosUser: nacos
+  nacosPassword: nacos
