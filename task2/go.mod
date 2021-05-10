@@ -3,6 +3,7 @@ module task
 go 1.15
 
 require (
+	entgo.io/ent v0.8.0 // indirect
 	github.com/fsnotify/fsnotify v1.4.9
 	github.com/jinzhu/gorm v1.9.16
 	github.com/lestrrat/go-file-rotatelogs v0.0.0-20180223000712-d3151e2a480f
